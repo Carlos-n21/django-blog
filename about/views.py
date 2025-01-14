@@ -2,6 +2,7 @@ from django.shortcuts import render
 from django.shortcuts import render
 from .models import About
 
+# Create your views here.
 
 def about_me(request):
     """
@@ -14,5 +15,3 @@ def about_me(request):
         "about/about.html",
         {"about": about},
     )
-
-# Create your views here.
